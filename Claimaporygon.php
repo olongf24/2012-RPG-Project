@@ -54,7 +54,7 @@ if (isset($_POST['SubmitClaim'])) {
 					}
 					
 
-	if ($guess == "Miltank") {
+	if ($guess == "Porygon") {
 					echo "<h4>You have gained a Miltank!</h4>";
 				   }
 
@@ -85,14 +85,14 @@ if (isset($_POST['SubmitClaim'])) {
 
 <h2>The current Pokemon is:</h2>
 
-<IMG SRC =Images/241.png>
+<IMG SRC =Images/137.png>
 
 <h3>Guess the Pokemon's Name to win the prize.</h3>
 
 
 
 
-<FORM NAME ="GuesstoClaim" METHOD ="POST" ACTION = "Claimamiltank.php">
+<FORM NAME ="GuesstoClaim" METHOD ="POST" ACTION = "Claimaporygon.php">
 
 <INPUT TYPE = "TEXT" VALUE ="" NAME = "Guess">
 <INPUT TYPE = "Submit" Name = "SubmitClaim" VALUE = "Claim">
